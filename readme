@@ -1,0 +1,44 @@
+# Amazon Scraper
+
+## Overview
+This project is an Amazon Scraper that extracts product information from Amazon's website. It is designed to help users gather data such as product names, prices, ratings, and reviews for analysis or comparison.
+
+## Features
+- Scrapes product details including name, price, rating, and reviews
+- Supports pagination to scrape multiple pages of search results
+- Saves scraped data to a CSV file for easy analysis
+
+## Requirements
+- Python 3.x
+- BeautifulSoup4
+- Requests
+- Pandas
+- CSV
+
+## Installation
+1. Clone the repository:
+    ```
+    git clone https://github.com/yourusername/amazon-scraper.git
+    ```
+2. Navigate to the project directory:
+    ```
+    cd amazon-scraper
+    ```
+3. Install the required packages:
+    ```
+    pip install -r requirements.txt
+    ```
+
+## Usage
+1. Open the `scraper.py` file and update the `SEARCH_QUERY` variable with your desired search term.
+2. Run the scraper:
+    ```
+    python scraper.py
+    ```
+3. The scraped data will be saved to `output.csv` in the project directory.
+
+## Disclaimer
+This project is for educational purposes only. Scraping Amazon's website may violate their terms of service. Use this tool responsibly and at your own risk.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
