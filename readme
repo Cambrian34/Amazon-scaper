@@ -1,10 +1,10 @@
 # Amazon Scraper
 
 ## Overview
-This project is an Amazon Scraper that extracts product information from Amazon's website. It is designed to help users gather data such as product names, prices, ratings, and reviews for analysis or comparison.
+This project is an Amazon Scraper that extracts product information from Amazon's website. It is designed to help users gather data such as product names, images and prices for analysis or comparison.
 
 ## Features
-- Scrapes product details including name, price, rating, and reviews
+- Scrapes product details including name, price and image
 - Supports pagination to scrape multiple pages of search results
 - Saves scraped data to a CSV file for easy analysis
 
