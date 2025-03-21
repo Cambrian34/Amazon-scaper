@@ -50,7 +50,7 @@ for price_element in price_elements:
 #    print(price)
 
 # Find title elements
-title_elements = soup.find_all('h2', class_='a-size-base-plus') #Changed this line!
+title_elements = soup.find_all('h2', class_='a-size-base-plus')
 titles = []
 
 for title_element in title_elements:
@@ -102,7 +102,7 @@ csv_file_path = "amazon_products.csv"
 # Write to CSV file
 with open(csv_file_path, mode='w', newline='', encoding='utf-8') as file:
     writer = csv.writer(file)
-    writer.writerow(["Title", "Price", "Image Name"])  # Write the header
+    writer.writerow(["Title", "Price", "Image Name"])  # the header
     for title, price, image_url in zip(titles, prices, image_urls):
         image_name = os.path.basename(image_url)
         writer.writerow([title, price, image_name])
